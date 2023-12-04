@@ -1,0 +1,16 @@
+export enum ECandidateStatus {
+  expected = "expected",
+  notApproved = "notApproved",
+  approved = "approved",
+  connectionPaused = "connectionPaused",
+  needToAdd = "needToAdd",
+  connectionSent = "connectionSent",
+  connectionApproved = "connectionApproved",
+  communicationStart = "communicationStart",
+  communicationPaused = "communicationPaused",
+  notReplay = "notReplay",
+  readyToSkillCheck = "readyToSkillCheck",
+  softSkillCheckNotPassed = "softSkillCheckNotPassed",
+  softSkillCheckPassed = "softSkillCheckPassed",
+  readyToSell = "readyToSell",
+}
