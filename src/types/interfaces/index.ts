@@ -5,4 +5,4 @@ export { type ILinkedInUser } from './linkedIn-user.interface';
 export { type IRecruitingVacancyToCandidate } from './recruiting-vacancy-to-candidate.interface';
 export { type IRecruitingVacancy } from './recruiting-vacancy.interface';
 export { type ITechnology } from './technology.interface';
-export { type IUser } from './user.interface';
+export * from './user.interface';
