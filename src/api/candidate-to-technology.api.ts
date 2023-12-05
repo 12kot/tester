@@ -1,10 +1,11 @@
 import { CandidateToTechnology } from "types";
+import { AxiosDelete, AxiosPatch, AxiosPost } from "./axios/axios.api";
 import {
-  AxiosDelete,
-  AxiosPatch,
-  AxiosPost,
-} from "./axios/axios.api";
-import { ICreateCandidateToTechnologyDto, IDeleteCandidateToTechnologyDto, IFilterCandidateToTechnologyByIdsDto, IUpdateCandidateToTechnologyDto } from "types/dto/candidate-to-technology";
+  ICreateCandidateToTechnologyDto,
+  IDeleteCandidateToTechnologyDto,
+  IFilterCandidateToTechnologyByIdsDto,
+  IUpdateCandidateToTechnologyDto,
+} from "types/dto/candidate-to-technology";
 
 const ENDPOINT_NAME = "candidate-to-technology";
 
