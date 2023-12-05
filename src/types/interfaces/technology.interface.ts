@@ -1,7 +1,12 @@
+import { ICandidateToTechnology } from "./candidate-to-technology.interface";
+import { ILinkedInUser } from "./linkedIn-user.interface";
+
 export interface ITechnology {
   id: number;
   name: string;
   responsibleLinkedInUserId?: string;
-  //    candidateToTechnologies: CandidateToTechnology [];
-  //    linkedInUser: LinkedInUser;
+
+  //relations
+  candidateToTechnologies?: ICandidateToTechnology[];
+  linkedInUser?: ILinkedInUser;
 }

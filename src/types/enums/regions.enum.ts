@@ -1,4 +1,4 @@
-export enum ERegions {
+export enum Regions {
   "Russia" = "russia",
   "Belarus" = "belarus",
   "Ukraine" = "ukraine",

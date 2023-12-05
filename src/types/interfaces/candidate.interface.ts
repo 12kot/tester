@@ -1,11 +1,14 @@
-import { ERegions } from "types/enums/regions.enum";
+import { Regions } from "types/enums";
+import { ICandidateToTechnology } from "./candidate-to-technology.interface";
+import { ICandidateToLinkedInUser } from "./candidate-to-linkedIn-user.interface";
+import { IRecruitingVacancyToCandidate } from "./recruiting-vacancy-to-candidate.interface";
 
 export interface ICandidate {
   id: number;
   imageUrl?: string;
   linkedInId?: string;
   creationDate?: number;
-  region: ERegions;
+  region: Regions;
   title: string;
 
   // person info //
@@ -29,7 +32,7 @@ export interface ICandidate {
   whyLeave?: string;
 
   // relations
-  //candidateToTechnologies?: ICandidateToTechnology[];
-  //candidateToLinkedInUsers: CandidateToLinkedInUser[];
-  //recruitingVacancyToCandidates: RecruitingVacancyToCandidate[];
+  candidateToTechnologies?: ICandidateToTechnology[];
+  candidateToLinkedInUsers?: ICandidateToLinkedInUser[];
+  recruitingVacancyToCandidates?: IRecruitingVacancyToCandidate[];
 }

@@ -1,4 +1,6 @@
-import { ERecruitingVacancyStatus } from "types/enums/recruit-vacancy-status";
+import { IRecruitingVacancyToCandidate } from "./recruiting-vacancy-to-candidate.interface";
+import { ILinkedInUser } from "./linkedIn-user.interface";
+import { RecruitingVacancyStatus } from "types/enums";
 
 export interface IRecruitingVacancy {
   id: number;
@@ -6,7 +8,9 @@ export interface IRecruitingVacancy {
   name: string;
   description?: string;
   responsibleLinkedInUserId?: string;
-  status: ERecruitingVacancyStatus;
-  //    recruitingVacancyToCandidates: RecruitingVacancyToCandidate [];
-  //    linkedInUser: LinkedInUser;
+  status: RecruitingVacancyStatus;
+
+  //relations
+  recruitingVacancyToCandidates?: IRecruitingVacancyToCandidate[];
+  linkedInUser?: ILinkedInUser;
 }

@@ -1,7 +1,7 @@
 {
-  "name": "@m-fil/ui-kit-test-lib",
+  "name": "@12kot/tester",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/m-fil"
+    "registry": "https://npm.pkg.github.com/12kot"
   },
   "version": "1.0.1",
   "description": "",

@@ -1,11 +1,15 @@
-import { ECandidateStatus } from "types/enums/candidate-statuses";
+import { CandidateToTechnology } from "types/enums";
+import { ICandidate } from "./candidate.interface";
+import { ITechnology } from "./technology.interface";
 
 export interface ICandidateToTechnology {
   candidateId: number;
   technologyId: number;
   month?: number;
   shortNote?: string;
-  candidateStatus?: ECandidateStatus;
-  //candidate: ICandidate;
-  //technology: Technology;
+  candidateStatus?: CandidateToTechnology;
+
+  //rwlations
+  candidate?: ICandidate;
+  technology?: ITechnology;
 }

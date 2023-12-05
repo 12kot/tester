@@ -1,0 +1,1 @@
+export { type IAuthDto } from "./auth.dto";
