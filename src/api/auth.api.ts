@@ -13,25 +13,25 @@ export const AuthSignup = async (
   data: ICreateUserDto
 ): Promise<ICreateUser | null> => {
   return await AxiosPost<ICreateUser>(
-    `${process.env.SERVER_PATH}/${ENDPOINT_NAME}/signup`,
+    `/${ENDPOINT_NAME}/signup`,
     data
   );
 };
 
 export const AuthSignin = async (data: IAuthDto) => {
   return await AxiosPost<ICreateUser>(
-    `${process.env.SERVER_PATH}/${ENDPOINT_NAME}/signin`,
+    `/${ENDPOINT_NAME}/signin`,
     data
   );
 };
 
 export const AuthLogout = async (data: IJwtAccessPayload) => {
-  return await AxiosPatch<any>(`${process.env.SERVER_PATH}/${ENDPOINT_NAME}/logout`, data);
+  return await AxiosPatch<any>(`/${ENDPOINT_NAME}/logout`, data);
 };
 
 export const AuthRefreshToken = async (data: IJwtRefreshPayload) => {
   return await AxiosPatch<ICreateUser>(
-    `${process.env.SERVER_PATH}/${ENDPOINT_NAME}/logout`,
+    `/${ENDPOINT_NAME}/logout`,
     data
   );
 };
