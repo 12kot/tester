@@ -1,4 +1,4 @@
-import { CandidateToTechnology } from "types/enums";
+import { CandidateToTechnology } from "../enums";
 import { ICandidate } from "./candidate.interface";
 import { ITechnology } from "./technology.interface";
 

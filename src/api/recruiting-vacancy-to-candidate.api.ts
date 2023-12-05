@@ -1,4 +1,4 @@
-import { IRecruitingVacancy, IRecruitingVacancyToCandidate } from "types";
+import { IRecruitingVacancy, IRecruitingVacancyToCandidate } from "../types";
 import {
   AxiosDelete,
   AxiosGet,
@@ -9,7 +9,7 @@ import {
   ICreateRecruitingVacancyToCandidateDto,
   IFilterRecruitingVacancyToCandidateByIdsDto,
   IUpdateRecruitingVacancyToCandidateDto,
-} from "types/dto/recruiting-vacancy-to-candidate";
+} from "../types/dto/recruiting-vacancy-to-candidate";
 
 const ENDPOINT_NAME = "recruiting-vacancy-to-candidate";
 

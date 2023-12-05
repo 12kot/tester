@@ -1,4 +1,4 @@
-import { ILinkedInUser } from "types";
+import { ILinkedInUser } from "../types";
 import {
   AxiosDelete,
   AxiosGet,
@@ -8,7 +8,7 @@ import {
 import {
   ICreateLinkedInUserDto,
   IUpdateLinkedInUserDto,
-} from "types/dto/linkedIn-user";
+} from "../types/dto/linkedIn-user";
 
 const ENDPOINT_NAME = "linked-in-user";
 

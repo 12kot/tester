@@ -1,4 +1,4 @@
-import { ICandidateToLinkedInUser } from "types";
+import { ICandidateToLinkedInUser } from "../types";
 import {
   AxiosDelete,
   AxiosPost,
@@ -9,7 +9,7 @@ import {
   IFilterCandidateToLinkedInUserByStatusDto,
   IUpdateCandidateToLinkedInUserAndTechnologiesByArrayDto,
   IUpdateCandidateToLinkedInUserAndTechnologiesDto,
-} from "types/dto/candidate-to-linkedIn-user";
+} from "../types/dto/candidate-to-linkedIn-user";
 
 const ENDPOINT_NAME = "candidate-to-linked-in-user";
 

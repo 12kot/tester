@@ -1,4 +1,4 @@
-import { ITechnology } from "types";
+import { ITechnology } from "../types";
 import {
   AxiosGet,
 } from "./axios/axios.api";

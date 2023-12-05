@@ -3,8 +3,8 @@ import {
   ICreateUser,
   IJwtAccessPayload,
   IJwtRefreshPayload,
-} from "types";
-import { ICreateUserDto } from "types/dto/user";
+} from "../types";
+import { ICreateUserDto } from "../types/dto/user";
 import { AxiosPatch, AxiosPost } from "./axios/axios.api";
 
 const ENDPOINT_NAME = "auth";

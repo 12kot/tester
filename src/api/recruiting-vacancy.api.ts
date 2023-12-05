@@ -1,4 +1,4 @@
-import { IRecruitingVacancy } from "types";
+import { IRecruitingVacancy } from "../types";
 import {
   AxiosDelete,
   AxiosGet,
@@ -8,7 +8,7 @@ import {
 import {
   ICreateRecruitingVacancyDto,
   IUpdateRecruitingVacancyDto,
-} from "types/dto/recruiting-vacancy";
+} from "../types/dto/recruiting-vacancy";
 
 const ENDPOINT_NAME = "recruiting-vacancy";
 

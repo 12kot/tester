@@ -1,6 +1,6 @@
-import { ITechnology, IUser } from "types";
+import { ITechnology, IUser } from "../types";
 import { AxiosDelete, AxiosGet, AxiosPatch } from "./axios/axios.api";
-import { IUpdateUserDto } from "types/dto/user";
+import { IUpdateUserDto } from "../types/dto/user";
 
 const ENDPOINT_NAME = "user";
 

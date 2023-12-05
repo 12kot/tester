@@ -1,4 +1,4 @@
-import { CandidateToTechnology } from "types/enums";
+import { CandidateToTechnology } from "../../enums";
 
 export interface ICreateCandidateToTechnologyDto {
   candidateId: number;

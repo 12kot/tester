@@ -1,4 +1,4 @@
-import { Regions } from "types/enums";
+import { Regions } from "../../enums";
 import { IFilterCandidateByTechnologyIdDto } from "./filter-candidate-by-technology-id.dto";
 
 export interface IFilterCandidatesDto {

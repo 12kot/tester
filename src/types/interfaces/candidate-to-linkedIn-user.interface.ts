@@ -1,4 +1,4 @@
-import { CandidateToLinkedInUser } from "types/enums";
+import { CandidateToLinkedInUser } from "../enums";
 import { ILinkedInUser } from "./linkedIn-user.interface";
 import { ICandidate } from "./candidate.interface";
 

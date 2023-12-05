@@ -6,7 +6,7 @@ import {
   IFilterCandidatesCountDto,
   IFilterCandidatesDto,
   IUpdateCandidateDto,
-} from "types";
+} from "../types";
 import {
   AxiosDelete,
   AxiosGet,

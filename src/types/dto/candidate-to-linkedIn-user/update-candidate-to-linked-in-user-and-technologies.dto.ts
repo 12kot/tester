@@ -1,4 +1,4 @@
-import { CandidateToLinkedInUser } from "types/enums";
+import { CandidateToLinkedInUser } from "../../enums";
 
 export interface IUpdateCandidateToLinkedInUserAndTechnologiesDto {
   candidateId: number;

@@ -1,4 +1,4 @@
-import { Regions } from "types/enums";
+import { Regions } from "../../enums";
 
 export interface ICreateCandidateDto {
   imageUrl?: string;

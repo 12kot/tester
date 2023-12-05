@@ -1,4 +1,4 @@
-import { RecruitingVacancyStatus } from "types/enums";
+import { RecruitingVacancyStatus } from "../../enums";
 
 export interface ICreateRecruitingVacancyDto {
   dateStart: number;

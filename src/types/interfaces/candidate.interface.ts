@@ -1,4 +1,4 @@
-import { Regions } from "types/enums";
+import { Regions } from "../enums";
 import { ICandidateToTechnology } from "./candidate-to-technology.interface";
 import { ICandidateToLinkedInUser } from "./candidate-to-linkedIn-user.interface";
 import { IRecruitingVacancyToCandidate } from "./recruiting-vacancy-to-candidate.interface";

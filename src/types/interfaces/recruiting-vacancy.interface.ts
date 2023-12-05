@@ -1,6 +1,6 @@
 import { IRecruitingVacancyToCandidate } from "./recruiting-vacancy-to-candidate.interface";
 import { ILinkedInUser } from "./linkedIn-user.interface";
-import { RecruitingVacancyStatus } from "types/enums";
+import { RecruitingVacancyStatus } from "../enums";
 
 export interface IRecruitingVacancy {
   id: number;
